@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+* {
+  margin: 0;
+  padding: 0;
+font-family: 'Ubuntu', sans-serif;
+}
+html {
+  background: url(bg.png) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: none;
+  color:#fdfaff;
+}
+
+#logo{
+  display: flex;
+  justify-content: center;
+  background-color: red;
+
+}
+#logo img{
+  /* width: 300px; */
+  /* height: 300px; */
+  width: 30vh;
+  height: 30vh;
+  position: absolute;
+    top: 140px;
+}
+body {
+overflow: hidden;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+.container{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  top: 43vh;
+}
+
+.countdownBx{
+position: relative;
+display: flex;
+flex-direction: column;
+/* background-color: red; */
+justify-content: center;
+top: -20px;
+}
+
+h2 {
+font-size: 7vh;
+font-family: 'Righteous', cursive;
+text-align: center;
+position: relative;
+top: 70px;
+}
+
+span {
+font-size: 50px;
+position: relative;
+text-align: center;
+top: 41%;
+}
+
+.countdown{
+position: relative;
+display: flex;
+flex-direction: row;
+/* background-color: yellow; */
+top: 100px;
+justify-content: center;
+left: 50px;
+}
+
+.countdown div{
+  width: 200px;
+  text-align: center;
+
+}
+.digits{
+  display: flex;
+  /* font-size: 65px; */
+  font-size: 7vh;
+}
+
+/* flex and justify-content: center;
+puts everything in the middle */
+.telegramBox{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+.telegram div{
+  width: 7vw;
+}
+.telegram > div:nth-of-type(1) {
+
+}
+
+.telegram > div:nth-of-type(2) {
+
+}
+.telegram > div:nth-of-type(3) {
+
+}
+.telegram > div:nth-of-type(4) {
+
+}
+
+#day{}
+#hour{}
+#minute{}
+#second{}
+
+.telegram {
+  display: flex;
+  flex-direction: row;
+}
+
+.telegram img {
+  width: 3vh;
+  height: 3vh;
+}
+
+p {
+  font-size: 2vh;
+}
+
+
+@media (max-width: 840px)  {
+  .telegram div{
+    width: 10vw;
+  }
+  p {
+    font-size: 1vh;
+  }
+  h2 {
+  font-size: 30px;
+  font-family: 'Righteous', cursive;
+  text-align: center;
+  position: relative;
+  top: 120px;
+  }
+#logo  img{
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 170px;
+  }
+  body {
+overflow: hidden;
+width: 100%;
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box;
+}
+span {
+font-size: 25px;
+position: relative;
+text-align: center;
+top: 90%;
+}
+.digits{
+  display: flex;
+  font-size: 35px;
+}
+.countdown div{
+  width: 80px;
+  text-align: center;
+}
+.countdown{
+position: relative;
+display: flex;
+flex-direction: row;
+/* background-color: yellow; */
+top: 150px;
+justify-content: center;
+left: 20px;
+}
+}
